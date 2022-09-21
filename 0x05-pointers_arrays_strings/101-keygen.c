@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
+#include "main.h"
+
 
 /**
  * main - generates keygen.
@@ -22,5 +24,6 @@ int main(void)
 		printf("%c", r);
 	}
 	printf("%c\n", (2772 - c));
+
 	return (0);
 }
